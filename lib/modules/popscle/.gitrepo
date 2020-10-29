@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/popscle.git
+	branch = master
+	commit = a4b9b9746284e3cd685ba97a50b89c5bbef37223
+	parent = 7849b08662f3688b079121409f8e888d0a94279f
+	method = merge
+	cmdver = 0.4.1
