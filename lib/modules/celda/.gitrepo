@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/celda.git
+	branch = master
+	commit = 1224bbac1b02ecd12c393bc642fcd13b3bcd9e5a
+	parent = 7f389c0d90a071a4eddbb74c9f86667c49f95b25
+	method = merge
+	cmdver = 0.4.1
