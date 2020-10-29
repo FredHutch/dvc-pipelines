@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/picard.git
+	branch = master
+	commit = 4a038e768625eaa9e495737c8f6bc0dac5a056e1
+	parent = 3b99e3799b978288f54404d55eef2cc4c1306a43
+	method = merge
+	cmdver = 0.4.1
