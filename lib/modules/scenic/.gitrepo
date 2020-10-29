@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/scenic.git
+	branch = master
+	commit = b465540f2638dc20629b3403bbc3413e3aedfd66
+	parent = 22f9abc831f7e16e156415ccd8d723c88b06391a
+	method = merge
+	cmdver = 0.4.1
