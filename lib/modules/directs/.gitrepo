@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/directs.git
+	branch = master
+	commit = 859c052b8845ee853fe3792763bad5c83107c739
+	parent = 785bd01c4b3ee7b9644c7c55fb513174ba87b625
+	method = merge
+	cmdver = 0.4.1
