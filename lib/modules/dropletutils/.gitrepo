@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/dropletutils.git
+	branch = master
+	commit = 2bebdfddcdc27973c12ac598db5a0dc61b34617a
+	parent = 4540cdbe3d6e1df1fa6e01a195a5be45dc62b638
+	method = merge
+	cmdver = 0.4.1
