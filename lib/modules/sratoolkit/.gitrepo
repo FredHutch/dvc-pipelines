@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/sratoolkit.git
+	branch = master
+	commit = c80282012cf219db36a4b111310067c3e3192388
+	parent = ac0ebd0f367fac909c41cc087dfe2d56e3178b8b
+	method = merge
+	cmdver = 0.4.1
