@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/scrublet.git
+	branch = master
+	commit = d6e02538fb4e1fa4968a802c6dc6b0258235f116
+	parent = 36e8a37505f82a2675ad9ec76c2e91c8fbf85089
+	method = merge
+	cmdver = 0.4.1
