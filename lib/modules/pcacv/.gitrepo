@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/pcacv.git
+	branch = master
+	commit = c348b86f00b7299eef9da4c5f4a3d58bbfc5c357
+	parent = e556726c740a0a02f994d95a02f459577904b914
+	method = merge
+	cmdver = 0.4.1
