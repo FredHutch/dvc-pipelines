@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/dropseqtools.git
+	branch = master
+	commit = ee13ba4928a06716ca10785ea5e3db79488e30a1
+	parent = 5e57ac3db00d17dd3503045ecb8084710867040a
+	method = merge
+	cmdver = 0.4.1
