@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/flybaser.git
+	branch = master
+	commit = d7eefdb0cf9c8bd4fcad99b4b4cc61ea13753b14
+	parent = b9605d6c1cc73e0205fa5d590b52664166ae8f48
+	method = merge
+	cmdver = 0.4.1
