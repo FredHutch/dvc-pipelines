@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/harmony.git
+	branch = master
+	commit = a31fea59670e735b4cba7f0e72f5690fa9eaf256
+	parent = ce6b258eb36ec037182134b6cdb0d7c4c6ca4d10
+	method = merge
+	cmdver = 0.4.1
