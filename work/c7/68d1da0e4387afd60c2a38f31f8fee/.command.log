@@ -1,0 +1,5 @@
+Variable names are not unique. To make them unique, call `.var_names_make_unique`.
+Traceback (most recent call last):
+  File "/Users/zager/Documents/Projects/dvc-pipelines/lib/utils/bin/sc_file_converter.py", line 244, in <module>
+    raise Exception("VSN ERROR: AnnData var index is not unique. This can be fixed by making it unique. To do so update the following param 'makeVarIndexUnique = true' (under params.sc.sc_file_converter) in your config.")
+Exception: VSN ERROR: AnnData var index is not unique. This can be fixed by making it unique. To do so update the following param 'makeVarIndexUnique = true' (under params.sc.sc_file_converter) in your config.

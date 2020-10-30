@@ -8,8 +8,12 @@ This repo is based on VSN Pipelines with 3 main differences
 
 ## Quick Notes
 
+### Run
+nextflow -C scanpy.config run main.nf -entry scanpy
+
 ### Gen A Config Based On Modules
 nextflow config main.nf -profile h5ad,docker,scanpy
 
-### Clone A Sub Repo 
+### Clone A Sub Repo
 git subrepo clone https://github.com/vib-singlecell-nf/star.git lib/modules/star
+
