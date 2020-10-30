@@ -1,0 +1,12 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/vib-singlecell-nf/scanpy.git
+	branch = master
+	commit = c06a266df912cc923214d0313fb500ab1b373496
+	parent = d9567726b2bd36de16bfb9aec472ce028a97581f
+	method = merge
+	cmdver = 0.4.1
