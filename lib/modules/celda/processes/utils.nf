@@ -3,7 +3,7 @@ nextflow.preview.dsl=2
 import java.nio.file.Paths
 
 moduleName = "celda"
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/${moduleName}/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "${moduleName}/bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/${moduleName}/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "${moduleName}/bin")
 
 
 process SC__CELDA__DECONTX_MERGE_OUTLIER_TABLES {

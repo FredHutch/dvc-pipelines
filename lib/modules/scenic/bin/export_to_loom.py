@@ -781,7 +781,7 @@ class SCopeLoom:
     def compress_encode(value):
         '''
         Compress using ZLIB algorithm and encode the given value in base64.
-        Taken from: https://github.com/aertslab/SCopeLoomPy/blob/5438da52c4bcf48f483a1cf378b1eaa788adefcb/src/scopeloompy/utils/__init__.py#L7
+        Taken from: https://github.com/aertslab/SCopeLoomPy/blob/5438da52c4bcf48f483a1cf378b1eaa788adefcb/lib/modules/scopeloompy/utils/__init__.py#L7
         '''
         return base64.b64encode(zlib.compress(value.encode('ascii'))).decode('ascii')
 

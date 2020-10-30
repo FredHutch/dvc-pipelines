@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/template/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/template/bin/" : ""
 
 process SC__TEMPLATE__PROCESS1 {
 

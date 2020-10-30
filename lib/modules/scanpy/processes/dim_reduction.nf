@@ -6,7 +6,7 @@ import groovyx.gpars.dataflow.DataflowBroadcast
 import nextflow.util.ArrayTuple
 import nextflow.script.ScriptBinding
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scanpy/bin" : Paths.get(workflow.scriptFile.getParent().toString(), "bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scanpy/bin" : Paths.get(workflow.scriptFile.getParent().toString(), "bin")
 
 include {
 	isParamNull;

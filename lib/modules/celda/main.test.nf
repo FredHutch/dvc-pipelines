@@ -8,7 +8,7 @@ INIT(params)
 
 ///////////////////////////////////////////
 // How to run ?
-// nextflow -C nextflow.config run [path-to-root-vsn]/src/celda/main.test.nf --test <TEST>
+// nextflow -C nextflow.config run [path-to-root-vsn]/lib/modules/celda/main.test.nf --test <TEST>
 // <TEST>:
 // - DECONTX_FILTER
 

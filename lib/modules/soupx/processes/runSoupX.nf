@@ -4,7 +4,7 @@ import java.nio.file.Paths
 
 moduleName = "soupx"
 toolParams = params.sc[moduleName]
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/${moduleName}/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "${moduleName}/bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/${moduleName}/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "${moduleName}/bin")
 
 
 process SC__SOUPX {

@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/harmony/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/harmony/bin/" : ""
 
 process SC__HARMONY__HARMONY_MATRIX {
     

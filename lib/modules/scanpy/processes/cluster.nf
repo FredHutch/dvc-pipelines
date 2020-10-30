@@ -4,7 +4,7 @@ import java.nio.file.Paths
 import groovy.transform.TupleConstructor
 import groovyx.gpars.dataflow.DataflowBroadcast
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scanpy/bin" : Paths.get(workflow.scriptFile.getParent().toString(), "bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scanpy/bin" : Paths.get(workflow.scriptFile.getParent().toString(), "bin")
 
 include {
 	isParamNull;

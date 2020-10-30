@@ -490,7 +490,7 @@ process SC__PUBLISH {
             stashedParams
         )
         """
-        cp -rL $f tmp
+        cp -RL $f tmp
         rm $f
         ln tmp "${outputFileName}"
         rm tmp

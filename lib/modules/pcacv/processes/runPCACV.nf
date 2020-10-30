@@ -2,7 +2,7 @@ nextflow.preview.dsl=2
 
 import java.nio.file.Paths
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/pcacv/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "pcacv/bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/pcacv/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "pcacv/bin")
 
 
 process PCACV__FIND_OPTIMAL_NPCS {

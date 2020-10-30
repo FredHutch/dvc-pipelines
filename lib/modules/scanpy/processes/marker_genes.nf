@@ -2,7 +2,7 @@ nextflow.preview.dsl=2
 
 import java.nio.file.Paths
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scanpy/bin" : Paths.get(workflow.scriptFile.getParent().toString(), "bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scanpy/bin" : Paths.get(workflow.scriptFile.getParent().toString(), "bin")
 
 include {
 	isParamNull;

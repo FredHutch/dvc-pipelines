@@ -1,7 +1,7 @@
 nextflow.preview.dsl=2
 
 if(!params.containsKey("test")) {
-    binDir = "${workflow.projectDir}/src/cellranger/bin/"
+    binDir = "${workflow.projectDir}/lib/modules/cellranger/bin/"
 } else {
     binDir = ""
 }

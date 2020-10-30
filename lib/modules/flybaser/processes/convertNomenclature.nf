@@ -1,7 +1,7 @@
 nextflow.preview.dsl=2
 
 if(!params.containsKey("test")) {
-    binDir = "${workflow.projectDir}/src/flybaser/bin/"
+    binDir = "${workflow.projectDir}/lib/modules/flybaser/bin/"
 } else {
     binDir = ""
 }

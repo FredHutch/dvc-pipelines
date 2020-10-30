@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scenic/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scenic/bin/" : ""
 
 /* general reporting function: 
 takes a template ipynb and adata as input,

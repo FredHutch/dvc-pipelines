@@ -9,11 +9,13 @@ This repo is based on VSN Pipelines with 3 main differences
 ## Quick Notes
 
 ### Run
-nextflow -C scanpy.config run main.nf -entry scanpy
+nextflow -C scanpy.conf run main.nf -entry scanpy
+nextflow -C aws.conf run main.nf -entry scanpy -w s3://dvc-wf-data/gottardo_r
+
 
 ### Gen A Config Based On Modules
 nextflow config main.nf -profile h5ad,docker,scanpy
 
 ### Clone A Sub Repo
-git subrepo clone https://github.com/vib-singlecell-nf/star.git lib/modules/star
+git subrepo clone https://github.com/vib-singlecell-nf/scanpy.git lib/modules/scanpy
 

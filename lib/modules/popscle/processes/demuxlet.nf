@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/popscle/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/popscle/bin/" : ""
 
 process SC__POPSCLE__DEMUXLET {
 

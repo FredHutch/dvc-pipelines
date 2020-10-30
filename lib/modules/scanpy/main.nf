@@ -10,14 +10,14 @@ import static groovy.json.JsonOutput.*
 include { 
     INIT;
     getDataChannel;
-} from './src/utils/workflows/utils' params(params)
+} from './lib/modules/utils/workflows/utils' params(params)
 INIT(params)
 include {
     SC__FILE_CONVERTER
-} from './src/utils/processes/utils' params(params)
+} from './lib/modules/utils/processes/utils' params(params)
 include {
     getDataChannel
-} from './src/channels/channels' params(params)
+} from './lib/modules/channels/channels' params(params)
 
 include {
     SINGLE_SAMPLE

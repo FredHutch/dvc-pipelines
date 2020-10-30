@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/directs/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/directs/bin/" : ""
 
 process SC__DIRECTS__SELECT_DEFAULT_CLUSTERING {
 

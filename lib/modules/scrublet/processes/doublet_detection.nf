@@ -3,7 +3,7 @@ nextflow.preview.dsl=2
 import java.nio.file.Paths
 import groovy.transform.TupleConstructor
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scrublet/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "scrublet/bin")
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scrublet/bin" : Paths.get(workflow.scriptFile.getParent().getParent().toString(), "scrublet/bin")
 
 include {
 	isParamNull;

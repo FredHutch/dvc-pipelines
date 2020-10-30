@@ -16,7 +16,7 @@ process SC__DROPLET_UTILS__BARCODE_SELECTION {
     
     script:
         """
-        Rscript ${workflow.projectDir}/src/dropletutils/bin/barcode_selection.R \
+        Rscript ${workflow.projectDir}/lib/modules/dropletutils/bin/barcode_selection.R \
             ${readCounts} \
             ${sample}
         """

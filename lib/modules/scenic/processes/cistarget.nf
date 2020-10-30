@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scenic/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scenic/bin/" : ""
 
 toolParams = params.sc.scenic
 processParams = params.sc.scenic.cistarget

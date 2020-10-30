@@ -1,6 +1,6 @@
 nextflow.preview.dsl=2
 
-binDir = !params.containsKey("test") ? "${workflow.projectDir}/src/scanpy/bin/" : ""
+binDir = !params.containsKey("test") ? "${workflow.projectDir}/lib/modules/scanpy/bin/" : ""
 
 process SC__SCANPY__BATCH_EFFECT_CORRECTION {
 
